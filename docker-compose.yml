@@ -1,9 +1,9 @@
 version: "3.7"                    
 
 services:                         
-  xtlab-mssql:
-    image: "mcr.microsoft.com/mssql/server:2017-latest"
-    container_name: sqlserver-xtlab
+  kienml-mssql:
+    image: "mcr.microsoft.com/mssql/server:2019-latest"
+    container_name: kienml
     restart: always
     hostname: mssql
     environment: 
